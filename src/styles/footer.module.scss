@@ -1,0 +1,53 @@
+.footerContainer{
+
+    margin-top: 3rem;
+
+    text-align: center;
+    p{
+        margin-top: 1rem;
+        font-size: 0.7rem;
+    }
+    ul{
+        display: block;
+        margin: 1rem 0 0 0;
+        
+    }
+
+    li{
+        display: inline;
+        list-style-type: none;
+        margin: 0 1rem 0 1rem;
+    }
+
+    a {
+        display: inline-block;
+        //margin: 0px 40px;
+        text-decoration: none;
+        font-size: 0.95rem;
+        
+    }
+    a:hover {
+        color: #000;
+        text-decoration: underline;
+    }
+    
+
+}
+
+
+.authorNav {
+   
+    a {
+        color: #444;       
+    }
+}
+
+.rulesNav {
+    margin-top: 1rem;
+    
+    a {
+        color: #444; 
+        font-size: 0.8rem;
+    }
+}
+

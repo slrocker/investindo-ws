@@ -1,0 +1,103 @@
+
+.content {
+
+
+
+    .title {
+
+        text-align: center;
+        color: #000;
+    }
+
+    .subtitle{
+        text-align:center;
+        font-size: 1.5rem;
+        margin-bottom: 3rem;
+    }
+
+    .warningDiv {
+
+        border: dashed 2px red;
+        
+        text-align: center;
+        margin: 1rem;
+        padding: 2rem;
+
+    
+
+        h2 {
+
+            margin-top: 0px;
+            margin-bottom: 2rem;
+            color: red;
+        }
+
+        p {
+            margin: 0px;
+        }
+        
+
+    }
+
+
+
+    h2 {
+
+        text-align: center;
+        margin-top: 3rem;
+    }
+
+    .svgContainer{
+
+        text-align: center;
+        margin-bottom: 3rem;
+    }
+
+    .svgWidth100 {
+
+        width: 100px;
+        height:100px;
+    }
+
+
+
+    .st0excel{
+        fill-rule:evenodd;
+        clip-rule:evenodd;
+        fill:#1F7245;
+    }
+
+    .st1excel{
+        fill-rule:evenodd;
+        clip-rule:
+        evenodd;fill:#FFFFFF;
+    }
+
+    .st0sheets{fill:#23A566;}
+        .st1sheets{fill:#1C8F5A;}
+        .st2sheets{fill:#8ED1B1;}
+        .st3sheets{fill-rule:evenodd;clip-rule:evenodd;fill:#FFFFFF;}
+
+    p.downloadVersion {
+        text-align: center;
+    }
+
+    a.downloadLink {
+     
+        padding: 10px;
+        color: white;
+        background-color: #0059b2;
+        text-decoration: none;
+        display:block;
+        width: 150px;
+        margin: 0 auto 40px auto;
+        text-align: center;
+    }        
+
+    a.downloadLink:hover{
+        background-color: #4192e4;
+    }
+        
+    
+                
+}

@@ -1,0 +1,1401 @@
+
+html {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
+    'Helvetica Neue', Arial, 'Noto Sans', sans-serif;
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+    //background-color: #f4f4f4;
+  }
+  body {
+    margin: 0;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  article,
+  aside,
+  details,
+  figcaption,
+  figure,
+  footer,
+  header,
+  main,
+  menu,
+  nav,
+  section,
+  summary {
+    display: block;
+  }
+  audio,
+  canvas,
+  progress,
+  video {
+    display: inline-block;
+  }
+  audio:not([controls]) {
+    display: none;
+    height: 0;
+  }
+  progress {
+    vertical-align: baseline;
+  }
+  [hidden],
+  template {
+    display: none;
+  }
+  a {
+    background-color: transparent;
+    -webkit-text-decoration-skip: objects;
+    color: #0059b2;
+        
+  }
+  a:active,
+  a:hover {
+    outline-width: 0;
+  }
+  abbr[title] {
+    border-bottom: none;
+    text-decoration: underline;
+    text-decoration: underline dotted;
+  }
+  b,
+  strong {
+    font-weight: inherit;
+    font-weight: bolder;
+  }
+  dfn {
+    font-style: italic;
+  }
+  h1 {
+    font-size: 2em;
+    margin: 0.67em 0;
+  }
+  mark {
+    background-color: #ff0;
+    color: #000;
+  }
+  small {
+    font-size: 80%;
+  }
+  sub,
+  sup {
+    font-size: 75%;
+    line-height: 0;
+    position: relative;
+    vertical-align: baseline;
+  }
+  sub {
+    bottom: -0.25em;
+  }
+  sup {
+    top: -0.5em;
+  }
+  img {
+    border-style: none;    
+  }
+  svg:not(:root) {
+    overflow: hidden;
+  }
+  code,
+  kbd,
+  pre,
+  samp {
+    font-family: monospace, monospace;
+    font-size: 1em;
+  }
+  figure {
+    margin: 1em 40px;
+  }
+  hr {
+    box-sizing: content-box;
+    height: 0;
+    overflow: visible;
+  }
+  button,
+  input,
+  optgroup,
+  select,
+  textarea {
+    font: inherit;
+    margin: 0;
+  }
+  optgroup {
+    font-weight: 700;
+  }
+  button,
+  input {
+    overflow: visible;
+  }
+  button,
+  select {
+    text-transform: none;
+  }
+  [type="reset"],
+  [type="submit"],
+  button,
+  html [type="button"] {
+    -webkit-appearance: button;
+  }
+  [type="button"]::-moz-focus-inner,
+  [type="reset"]::-moz-focus-inner,
+  [type="submit"]::-moz-focus-inner,
+  button::-moz-focus-inner {
+    border-style: none;
+    padding: 0;
+  }
+  [type="button"]:-moz-focusring,
+  [type="reset"]:-moz-focusring,
+  [type="submit"]:-moz-focusring,
+  button:-moz-focusring {
+    outline: 1px dotted ButtonText;
+  }
+  fieldset {
+    border: 1px solid silver;
+    margin: 0 2px;
+    padding: 0.35em 0.625em 0.75em;
+  }
+  legend {
+    box-sizing: border-box;
+    color: inherit;
+    display: table;
+    max-width: 100%;
+    padding: 0;
+    white-space: normal;
+  }
+  textarea {
+    overflow: auto;
+  }
+  [type="checkbox"],
+  [type="radio"] {
+    box-sizing: border-box;
+    padding: 0;
+  }
+  [type="number"]::-webkit-inner-spin-button,
+  [type="number"]::-webkit-outer-spin-button {
+    height: auto;
+  }
+  [type="search"] {
+    -webkit-appearance: textfield;
+    outline-offset: -2px;
+  }
+  [type="search"]::-webkit-search-cancel-button,
+  [type="search"]::-webkit-search-decoration {
+    -webkit-appearance: none;
+  }
+  ::-webkit-input-placeholder {
+    color: inherit;
+    opacity: 0.54;
+  }
+  ::-webkit-file-upload-button {
+    -webkit-appearance: button;
+    font: inherit;
+  }
+  html {
+    font: 112.5%/1.45em georgia, serif;
+    box-sizing: border-box;
+    overflow-y: scroll;
+  }
+  * {
+    box-sizing: inherit;
+  }
+  *:before {
+    box-sizing: inherit;
+  }
+  *:after {
+    box-sizing: inherit;
+  }
+  body {
+    color: hsla(0, 0%, 0%, 0.8);
+    font-family: sans-serif;
+    font-weight: normal;
+    word-wrap: break-word;
+    font-kerning: normal;
+    -moz-font-feature-settings: "kern", "liga", "clig", "calt";
+    -ms-font-feature-settings: "kern", "liga", "clig", "calt";
+    -webkit-font-feature-settings: "kern", "liga", "clig", "calt";
+    font-feature-settings: "kern", "liga", "clig", "calt";
+  }
+  img {
+    max-width: 100%;
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 0;
+    padding-bottom: 0;
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 0;
+    margin-bottom: 1.45rem;
+  }
+  h1 {
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 0;
+    padding-bottom: 0;
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 0;
+    margin-bottom: 1.45rem;
+    color: inherit;
+    font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+      Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+    font-weight: bold;
+    text-rendering: optimizeLegibility;
+    font-size: 2.25rem;
+    line-height: 1.1;
+  }
+  h2 {
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 0;
+    padding-bottom: 0;
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 0;
+    margin-bottom: 1.45rem;
+    color: inherit;
+    font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+      Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+    font-weight: bold;
+    text-rendering: optimizeLegibility;
+    font-size: 1.62671rem;
+    line-height: 1.1;
+  }
+  h3 {
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 0;
+    padding-bottom: 0;
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 0;
+    margin-bottom: 1.45rem;
+    color: inherit;
+    font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+      Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+    font-weight: bold;
+    text-rendering: optimizeLegibility;
+    font-size: 1.38316rem;
+    line-height: 1.1;
+  }
+  h4 {
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 0;
+    padding-bottom: 0;
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 0;
+    margin-bottom: 1.45rem;
+    color: inherit;
+    font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+      Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+    font-weight: bold;
+    text-rendering: optimizeLegibility;
+    font-size: 1rem;
+    line-height: 1.1;
+  }
+  h5 {
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 0;
+    padding-bottom: 0;
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 0;
+    margin-bottom: 1.45rem;
+    color: inherit;
+    font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+      Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+    font-weight: bold;
+    text-rendering: optimizeLegibility;
+    font-size: 0.85028rem;
+    line-height: 1.1;
+  }
+  h6 {
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 0;
+    padding-bottom: 0;
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 0;
+    margin-bottom: 1.45rem;
+    color: inherit;
+    font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+      Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+    font-weight: bold;
+    text-rendering: optimizeLegibility;
+    font-size: 0.78405rem;
+    line-height: 1.1;
+  }
+  hgroup {
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 0;
+    padding-bottom: 0;
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 0;
+    margin-bottom: 1.45rem;
+  }
+  ul {
+    margin-left: 1.45rem;
+    margin-right: 0;
+    margin-top: 0;
+    padding-bottom: 0;
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 0;
+    margin-bottom: 1.45rem;
+    list-style-position: outside;
+    list-style-image: none;
+  }
+  ol {
+    margin-left: 1.45rem;
+    margin-right: 0;
+    margin-top: 0;
+    padding-bottom: 0;
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 0;
+    margin-bottom: 1.45rem;
+    list-style-position: outside;
+    list-style-image: none;
+  }
+  dl {
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 0;
+    padding-bottom: 0;
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 0;
+    margin-bottom: 1.45rem;
+  }
+  dd {
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 0;
+    padding-bottom: 0;
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 0;
+    margin-bottom: 1.45rem;
+  }
+  p {
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 0;
+    padding-bottom: 0;
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 0;
+    margin-bottom: 1.45rem;
+  }
+  figure {
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 0;
+    padding-bottom: 0;
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 0;
+    margin-bottom: 1.45rem;
+  }
+  pre {
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 0;
+    margin-bottom: 1.45rem;
+    font-size: 0.85rem;
+    line-height: 1.42;
+    background: hsla(0, 0%, 0%, 0.04);
+    border-radius: 3px;
+    overflow: auto;
+    word-wrap: normal;
+    padding: 1.45rem;
+  }
+  table {
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 0;
+    padding-bottom: 0;
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 0;
+    margin-bottom: 1.45rem;
+    font-size: 1rem;
+    line-height: 1.45rem;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  fieldset {
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 0;
+    padding-bottom: 0;
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 0;
+    margin-bottom: 1.45rem;
+  }
+  blockquote {
+    margin-left: 1.45rem;
+    margin-right: 1.45rem;
+    margin-top: 0;
+    padding-bottom: 0;
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 0;
+    margin-bottom: 1.45rem;
+  }
+  form {
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 0;
+    padding-bottom: 0;
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 0;
+    margin-bottom: 1.45rem;
+  }
+  noscript {
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 0;
+    padding-bottom: 0;
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 0;
+    margin-bottom: 1.45rem;
+  }
+  iframe {
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 0;
+    padding-bottom: 0;
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 0;
+    margin-bottom: 1.45rem;
+  }
+  hr {
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 0;
+    padding-bottom: 0;
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 0;
+    margin-bottom: calc(1.45rem - 1px);
+    background: hsla(0, 0%, 0%, 0.2);
+    border: none;
+    height: 1px;
+  }
+  address {
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 0;
+    padding-bottom: 0;
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 0;
+    margin-bottom: 1.45rem;
+  }
+  b {
+    font-weight: bold;
+  }
+  strong {
+    font-weight: bold;
+  }
+  dt {
+    font-weight: bold;
+  }
+  th {
+    font-weight: bold;
+  }
+  li {
+    margin-bottom: calc(1.45rem / 2);
+  }
+  ol li {
+    padding-left: 0;
+  }
+  ul li {
+    padding-left: 0;
+  }
+  li > ol {
+    margin-left: 1.45rem;
+    margin-bottom: calc(1.45rem / 2);
+    margin-top: calc(1.45rem / 2);
+  }
+  li > ul {
+    margin-left: 1.45rem;
+    margin-bottom: calc(1.45rem / 2);
+    margin-top: calc(1.45rem / 2);
+  }
+  blockquote *:last-child {
+    margin-bottom: 0;
+  }
+  li *:last-child {
+    margin-bottom: 0;
+  }
+  p *:last-child {
+    margin-bottom: 0;
+  }
+  li > p {
+    margin-bottom: calc(1.45rem / 2);
+  }
+  code {
+    font-size: 0.85rem;
+    line-height: 1.45rem;
+  }
+  kbd {
+    font-size: 0.85rem;
+    line-height: 1.45rem;
+  }
+  samp {
+    font-size: 0.85rem;
+    line-height: 1.45rem;
+  }
+  abbr {
+    border-bottom: 1px dotted hsla(0, 0%, 0%, 0.5);
+    cursor: help;
+  }
+  acronym {
+    border-bottom: 1px dotted hsla(0, 0%, 0%, 0.5);
+    cursor: help;
+  }
+  abbr[title] {
+    border-bottom: 1px dotted hsla(0, 0%, 0%, 0.5);
+    cursor: help;
+    text-decoration: none;
+  }
+  thead {
+    text-align: left;
+    font-weight:bold;
+  }
+  td,
+  th {
+    text-align: center;
+    border-bottom: 1px solid hsla(0, 0%, 0%, 0.12);
+    font-feature-settings: "tnum";
+    -moz-font-feature-settings: "tnum";
+    -ms-font-feature-settings: "tnum";
+    -webkit-font-feature-settings: "tnum";
+    padding-left: 0.96667rem;
+    padding-right: 0.96667rem;
+    padding-top: 0.725rem;
+    padding-bottom: calc(0.725rem - 1px);
+  }
+  th:first-child,
+  td:first-child {
+    padding-left: 0;
+  }
+  th:last-child,
+  td:last-child {
+    padding-right: 0;
+  }
+  tt,
+  code {
+    background-color: hsla(0, 0%, 0%, 0.04);
+    border-radius: 3px;
+    font-family: "SFMono-Regular", Consolas, "Roboto Mono", "Droid Sans Mono",
+      "Liberation Mono", Menlo, Courier, monospace;
+    padding: 0;
+    padding-top: 0.2em;
+    padding-bottom: 0.2em;
+  }
+  pre code {
+    background: none;
+    line-height: 1.42;
+  }
+  code:before,
+  code:after,
+  tt:before,
+  tt:after {
+    letter-spacing: -0.2em;
+    content: " ";
+  }
+  pre code:before,
+  pre code:after,
+  pre tt:before,
+  pre tt:after {
+    content: "";
+  }
+
+  
+  //-------------------------------------------------
+  //-----------------RESPONSIVE-----------------------
+  //--------------------------------------------------
+ 
+  @media only screen and (max-width: 1000px) {
+    html {
+      font-size: 100%;
+    }   
+   
+  }
+
+  .katex > .katex-html {
+    white-space: normal;
+    //font-size: 12px;
+    font-size: calc(12px + 4 * ((100vw - 320px) / 680));
+  }
+  
+  .katex .base {
+    margin-top: 2px;
+    margin-bottom: 2px;
+  }
+
+  .iframe-container{
+
+    overflow: hidden;
+    padding-top: 70%;
+    position: relative;
+      
+
+    
+  }
+
+  .iframe-container iframe{
+    border: 0;
+    height: 100%;
+    left:0;
+    position:absolute;
+    top:0;
+    width:100%;
+    
+
+  }
+
+
+
+  svg {
+
+    
+    max-width: 600px;
+  
+
+    
+  }
+
+  .svg-vertical-limit {
+
+      max-height: 80vh;
+      
+  }
+
+  .svg-horizontal-limit {
+    max-width: 60% ;
+    
+  }
+
+
+  //--------------------------------------------------
+  //--------------PARAGRAPHS-AND-DIVS-----------------
+  //--------------------------------------------------  
+
+ 
+  
+  .dashedBox{
+
+    border: 1px dashed red;
+    padding: 20px;
+    margin: 2rem 0 2rem 0;
+
+    h1,h2,h3,h4,h5,h6{
+      
+      color: red;
+      text-align: center;
+      margin: 0 0 2rem 0;
+    }
+
+    p{
+
+      font-weight: bold;
+      margin: 1rem;
+      text-align: justify;
+    }
+
+  }
+
+
+  .borderBox{
+
+    border: 1px solid #444;
+    padding: 20px;
+    margin: 2rem 0 2rem 0;
+    
+
+    h1,h2,h3,h4,h5,h6{
+      
+      color: #000;
+      text-align: center;
+      margin: 0 0 2rem 0;
+    }
+
+    ul{
+      margin-bottom: 0px;
+    }   
+  
+    
+
+  }
+
+  .citacao {
+    padding-left: 2rem;
+    padding-right: 2rem;
+    font-size: 0.8rem;
+    margin-top: 3rem;
+    border-left: 1px solid #ddd;
+    border-right: 1px solid #ddd;
+  }
+
+  .referencias {
+
+    margin-top: 5rem;
+    font-size: 0.8rem;
+  }
+
+  .legenda {
+    font-size: 0.8rem;
+    margin: 2rem 0 3rem 0;
+    
+    
+  }
+  
+
+
+
+  //--------------------------------------------------
+  //---------------------TABLES-----------------------
+  //--------------------------------------------------
+
+   
+
+
+// tag <table>
+
+.regularTable{
+
+  border: 1px solid black;
+  
+ td{
+
+    border: 1px solid black;
+    padding: 0.3rem;
+    
+  }
+
+}
+
+
+// tag  <div>
+
+.balancoTableWrapper{
+
+  max-height:85vh;
+  // background-color: #fff;
+
+  // width: 80vw;
+  // position: relative;
+  // left: calc(-50vw + 75%);
+
+  .balancoTable {
+
+    margin: 0px;
+    font-size: 0.7rem;       
+
+
+
+    thead{
+      position: sticky;
+      top:0px;
+      z-index: 100;
+      color: #000;
+      
+
+      th{
+        background-color: #fff;
+        border-bottom: 1px solid #888;
+      }
+
+      .trimHeader{
+        color: #666;
+        min-width: 5vw;
+      }
+
+          
+    } 
+
+    .trimData{
+
+      // color: #666;
+      min-width: 5vw;
+
+    }
+
+    .fixedLeftColumn{
+      position: sticky;
+      left: 0px;
+      
+    }        
+
+    tr {
+      // border-bottom: 0.5px solid #eee;
+      background-color:#fff;
+    }
+
+    td {
+
+      background-color:#fff;
+      padding: 0.3rem;
+      min-width: 8vw;
+      
+
+    }
+
+    td.rowDescription{
+      font-weight: bold;
+      min-width: 10vw;        
+
+    }     
+
+
+
+    td.leftAlignCell {
+      text-align: left;
+      // padding-left: 1rem;
+      
+    }
+
+
+    td.negativeNumber {
+
+      color: red;
+
+    }
+
+    td.positiveNumber {
+
+      color:#0059b2;
+      
+
+    }
+
+    td.positiveNumberGreen {
+
+      color:green;
+      
+
+    }
+
+    td.dividaBruta.negativeNumber{
+        color:#b30000;
+      
+
+    }
+
+
+
+
+    /* Tooltip text */
+    .tooltiptext {
+    visibility: hidden;
+    width: 100%;
+    background-color: #f6f6f6;
+    border: 1px solid black;
+    color: #444;
+    text-align: center;
+    padding: 5px;
+    border-radius: 3px;
+    left: 100%;
+    bottom : 0%;
+
+    position: absolute;
+    z-index: 10;
+
+    b {
+
+      color: black;
+
+    }
+    }
+
+    .tooltiptexttop {
+
+      visibility: hidden;
+      width: 100%;
+      background-color: #f6f6f6;
+      border: 1px solid black;
+      color: #444;
+      text-align: center;
+      padding: 5px;
+      border-radius: 3px;
+      left: 100%;
+      top : 0%;
+
+      position: absolute;
+      z-index: 10;
+
+      b {
+
+        color: black;
+
+      }
+
+    }
+
+    /* Show the tooltip text when you mouse over the tooltip container */
+    .tooltip:hover .tooltiptext, .tooltip:hover .tooltiptexttop {
+    visibility: visible;
+    }
+
+  }  
+
+}
+
+
+@media only screen and (max-width: 600px) {
+
+  .tooltiptext {
+    
+    width: 50vw;
+    
+  }
+  .tooltiptexttop {
+    
+    width: 50vw;
+    
+  }
+
+}
+
+.overflow {
+
+  overflow: auto;
+  margin: 1rem 0;
+
+}
+
+// tag <table>
+
+.controle{
+  font-size: 0.7rem;  
+}
+
+// Pode ser na tag <table> ou em uma <div>
+
+.responsiveTable{
+
+  font-size: 1.5vh;
+
+  table{
+
+  font-size: 1.5vh;
+  
+  }
+
+}
+
+
+// tabela que não ocupa 100% do width da tela
+
+div.smallTableWrapper {
+
+  table {
+
+    font-size: 0.7rem;
+    max-width:80%;
+    margin-left: auto;
+    margin-right: auto;
+    
+    td{
+
+      padding: 1px;
+
+    }
+
+  }
+
+}
+
+//--------------------------------------------------
+//-----------------DADOS - CSS ---------------------
+//--------------------------------------------------
+
+
+.showHideInstructions{
+
+  font-size: 0.8rem;
+  margin-bottom: 20px;
+  margin-top: 2rem;
+  margin-left: 5px;
+
+}
+
+.showHideCheckBox {
+  
+  display:none;
+
+}
+
+.showHideButton {
+
+  // background-color: #aaa;
+  width: 150px;
+  height: 50px;
+  border: 2px solid #aaa;
+  margin:5px;
+  padding:none;
+  display: inline-flex;
+  align-items: center;
+  // text-align:center;
+  // justify-content: center;
+
+
+}
+
+.showHideDFPButton {
+
+  // background-color: #aaa;
+  width: 200px;
+  height: 50px;
+  border: 2px solid #aaa;
+  margin:5px;
+  padding:none;
+  display: inline-flex;
+  align-items: center;
+  // text-align:center;
+  // justify-content: center;
+
+
+}
+
+.hideButton {
+
+  // background-color: rgb(243, 130, 130);
+
+ 
+}
+
+.showButton {
+
+  // background-color: rgb(118, 248, 118);
+  background-color:#0060df;
+  border:none;
+  color: #fff;
+
+
+}
+
+.showHideLabel{
+  display:inline-block;
+  text-align:center;
+
+}
+
+.showHideCheckBox:not(:checked) + label *.hideButton{
+
+display:none;
+  
+}
+
+
+.showHideCheckBox:checked + label *.showButton{
+
+display:none;
+  
+}
+
+// #showHideBalancoCheckBox:checked ~ #balancoShowHideDiv *{
+
+//   display:none;
+    
+//   }
+
+// #showHideDRECheckBox:checked ~ #DREShowHideDiv *{
+
+//   display:none; 
+
+// }
+
+// #showHideDFCCheckBox:checked ~ #DFCShowHideDiv *{
+
+//   display:none;
+  
+// }
+
+// #showHideMultiploCheckBox:checked ~ #multiploShowHideDiv *{
+
+//   display:none;
+  
+// }
+
+
+#showHideBalancoCheckBoxConsolidado:checked ~ #balancoShowHideDivConsolidado *{
+
+  display:none;
+    
+  }
+
+#showHideDRECheckBoxConsolidado:checked ~ #DREShowHideDivConsolidado *{
+
+  display:none; 
+
+}
+
+#showHideDFCCheckBoxConsolidado:checked ~ #DFCShowHideDivConsolidado *{
+
+  display:none;
+  
+}
+
+#showHideMultiploCheckBoxConsolidado:checked ~ #multiploShowHideDivConsolidado *{
+
+  display:none;
+  
+}
+
+
+#showHideBalancoCheckBoxIndividual:checked ~ #balancoShowHideDivIndividual *{
+
+  display:none;
+    
+  }
+
+#showHideDRECheckBoxIndividual:checked ~ #DREShowHideDivIndividual *{
+
+  display:none; 
+
+}
+
+#showHideDFCCheckBoxIndividual:checked ~ #DFCShowHideDivIndividual *{
+
+  display:none;
+  
+}
+
+#showHideMultiploCheckBoxIndividual:checked ~ #multiploShowHideDivIndividual *{
+
+  display:none;
+  
+}
+
+#showHideDFPCheckBoxConsolidado:checked ~ #showHideDFPDivConsolidado *{
+
+  display:none;
+  
+}
+
+#showHideDFPCheckBoxIndividual:checked ~ #showHideDFPDivIndividual *{
+
+  display:none;
+  
+}
+
+
+
+
+
+
+.toggleCommand {
+/* display: none; // You would probably use this. */
+// opacity: .2; /* This is to show how the wiring works. */
+}
+
+/* Default the inputs to not displaying */
+.filter-group-balanco-consolidado input, .filter-group-dfc-consolidado input, .filter-group-dre-consolidado input, .filter-group-balanco-individual input, .filter-group-dfc-individual input, .filter-group-dre-individual input  {
+display: none;
+margin-right: 10px;
+border-color: #666;
+width: 1em;
+height: 1em;
+
+ 
+}
+
+// /* Show and hide inline checkboxes */
+// #toggleBalanco:not(:checked) ~ .filter-group-balanco label[for=toggleBalanco] input:not(:checked){
+//   display: inline-block; 
+// }
+
+// #toggleBalanco:checked ~ .filter-group-balanco label[for=toggleBalanco] input:checked{
+//   display: inline-block; 
+// }
+
+// /* Do filters */
+// #toggleBalanco:not(:checked) ~ * *[data-col="trimBalanco"] {
+//   display: none;
+// }
+
+/* Show and hide inline checkboxes */
+#toggleBalancoConsolidado:not(:checked) ~ .filter-group-balanco-consolidado label[for=toggleBalancoConsolidado] input:not(:checked){
+  display: inline-block; 
+}
+
+#toggleBalancoConsolidado:checked ~ .filter-group-balanco-consolidado label[for=toggleBalancoConsolidado] input:checked{
+  display: inline-block; 
+}
+
+/* Do filters */
+#toggleBalancoConsolidado:not(:checked) ~ * *[data-col="trimBalancoConsolidado"] {
+  display: none;
+}
+
+#toggleBalancoIndividual:not(:checked) ~ .filter-group-balanco-individual label[for=toggleBalancoIndividual] input:not(:checked){
+  display: inline-block; 
+}
+
+#toggleBalancoIndividual:checked ~ .filter-group-balanco-individual label[for=toggleBalancoIndividual] input:checked{
+  display: inline-block; 
+}
+
+/* Do filters */
+#toggleBalancoIndividual:not(:checked) ~ * *[data-col="trimBalancoIndividual"] {
+  display: none;
+}
+
+
+
+
+
+
+
+
+/* Show and hide inline checkboxes */
+// #toggleDFC:not(:checked) ~ .filter-group-dfc label[for=toggleDFC] input:not(:checked){
+//   display: inline-block; 
+// }
+
+// #toggleDFC:checked ~ .filter-group-dfc label[for=toggleDFC] input:checked{
+//   display: inline-block; 
+// }
+
+// /* Do filters */
+// #toggleDFC:not(:checked) ~ * *[data-col="trimDFC"] {
+//   display: none;
+// }
+
+#toggleDFCConsolidado:not(:checked) ~ .filter-group-dfc-consolidado label[for=toggleDFCConsolidado] input:not(:checked){
+  display: inline-block; 
+}
+
+#toggleDFCConsolidado:checked ~ .filter-group-dfc-consolidado label[for=toggleDFCConsolidado] input:checked{
+  display: inline-block; 
+}
+
+/* Do filters */
+#toggleDFCConsolidado:not(:checked) ~ * *[data-col="trimDFCConsolidado"] {
+  display: none;
+}
+
+#toggleDFCIndividual:not(:checked) ~ .filter-group-dfc-individual label[for=toggleDFCIndividual] input:not(:checked){
+  display: inline-block; 
+}
+
+#toggleDFCIndividual:checked ~ .filter-group-dfc-individual label[for=toggleDFCIndividual] input:checked{
+  display: inline-block; 
+}
+
+/* Do filters */
+#toggleDFCIndividual:not(:checked) ~ * *[data-col="trimDFCIndividual"] {
+  display: none;
+}
+
+
+
+
+
+// /* Show and hide inline checkboxes */
+// #toggleDRE:not(:checked) ~ .filter-group-dre label[for=toggleDRE] input:not(:checked){
+//   display: inline-block; 
+// }
+
+// #toggleDRE:checked ~ .filter-group-dre label[for=toggleDRE] input:checked{
+//   display: inline-block; 
+// }
+
+// /* Do filters */
+// #toggleDRE:not(:checked) ~ * *[data-col="trimDRE"] {
+//   display: none;
+// }
+
+
+/* Show and hide inline checkboxes */
+#toggleDREConsolidado:not(:checked) ~ .filter-group-dre-consolidado label[for=toggleDREConsolidado] input:not(:checked){
+  display: inline-block; 
+}
+
+#toggleDREConsolidado:checked ~ .filter-group-dre-consolidado label[for=toggleDREConsolidado] input:checked{
+  display: inline-block; 
+}
+
+/* Do filters */
+#toggleDREConsolidado:not(:checked) ~ * *[data-col="trimDREConsolidado"] {
+  display: none;
+}
+
+#toggleDREIndividual:not(:checked) ~ .filter-group-dre-individual label[for=toggleDREIndividual] input:not(:checked){
+  display: inline-block; 
+}
+
+#toggleDREIndividual:checked ~ .filter-group-dre-individual label[for=toggleDREIndividual] input:checked{
+  display: inline-block; 
+}
+
+/* Do filters */
+#toggleDREIndividual:not(:checked) ~ * *[data-col="trimDREIndividual"] {
+  display: none;
+}
+
+/* Avoid clicks on the inactive checkboxes */
+
+label input {
+  pointer-events: none;}
+
+
+
+
+
+
+//--------------------------------------------------
+//-----------------FOOTER - SOCIAL------------------
+//--------------------------------------------------
+.social-link {
+
+  display: inline-block;
+  margin: 0px 10px 0px 10px; 
+}
+
+.social-icon{
+  
+  
+  fill: #222;
+}
+
+.facebook-icon:hover{
+  
+  fill:#3b5998;
+}
+
+.twitter-icon:hover{
+  
+  fill:#1dcaff;
+}
+
+.youtube-white{
+  fill:#fff;
+}
+.youtube-icon:hover .youtube-red{
+  
+  fill:#cd201f;
+}
+
+.youtube-icon:hover .youtube-white{
+  
+  fill:#ffffff;
+}
+
+.instagram-icon:hover {
+
+  fill: url(#rg);
+}

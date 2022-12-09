@@ -1,0 +1,38 @@
+
+.content {
+
+
+
+    .title {
+
+        text-align: center;
+        color: #000;
+    }
+
+    .subtitle{
+        text-align:center;
+        font-size: 1.5rem;
+        margin-bottom: 3rem;
+    }
+
+    .book {
+
+        text-align:center;
+        border-bottom: 1px solid #444;
+
+        .bookDescription{
+
+            text-align:justify;
+        }
+
+        a{
+            text-decoration: none;        
+        
+        }
+    
+        a:hover{
+            text-decoration: underline;
+        }
+    }
+
+}

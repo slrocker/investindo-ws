@@ -41,12 +41,12 @@ const IndexPage = () => {
                                 <p>Tudo o que você precisa saber para começar a investir.</p>
                             </Link>
                 </li>
-                {/* <li className={indexStyles.item}>
+                <li className={indexStyles.item}>
                             <Link to="/planilhas">
                                 <h1>Planilhas</h1>
                                 <p>Planilhas para controle de investimentos.</p>
                             </Link>
-                </li>   */}
+                </li>  
                 <li className={indexStyles.item}>
                             <Link to="/artigos">
                                 <h1>Artigos</h1>

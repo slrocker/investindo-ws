@@ -19,7 +19,7 @@ const Nav = () => {
         <nav className={navStyles.navContainer} id="navContainer">
             <ul>
                 <li><Link to='/aprenda' className={navStyles.navLink}>Aprenda</Link></li>
-                {/* <li><Link to='/planilhas' className={navStyles.navLink}>Planilhas</Link></li> */}
+                <li><Link to='/planilhas' className={navStyles.navLink}>Planilhas</Link></li>
                 <li><Link to='/artigos' className={navStyles.navLink}>Artigos</Link></li>
                 <li><Link to='/cursos' className={navStyles.navLink}>Cursos</Link></li>
                 <li><Link to='/livros' className={navStyles.navLink}>Livros</Link></li>
